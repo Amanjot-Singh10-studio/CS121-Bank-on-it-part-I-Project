@@ -38,4 +38,5 @@ public abstract class User implements HasMenu, Serializable {
 		return PIN; 
 	} 
 	public abstract String getReport(); 
-} 	
+}
+

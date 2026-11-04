@@ -1,12 +1,12 @@
 import java.io.*; 
 import java.util.*; 
 
-public class SavingsAccount extemds CheckingAccount { 
+public class SavingsAccount extends CheckingAccount { 
 	private double interestRate; 
 	public SavingsAccount() { 
 		interestRate = 0; 
 	} 
-	public static void main(string[] args) { 
+	public static void main(String[] args) { 
 		SavingsAccount account = new SavingsAccount(); 
 		account.start(); 
 	} 

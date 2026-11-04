@@ -1,4 +1,7 @@
+import java.io.*; 
+import java.util.*;
+
 public interface HasMenu { 
-	String Menu(); 
+	String menu(); 
 	void start(); 
 } 

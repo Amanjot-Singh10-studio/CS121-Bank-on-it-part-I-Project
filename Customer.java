@@ -43,7 +43,7 @@ public class Customer extends User {
 	} 
 
 	public void start() { 
-		String Choice = ""; 
+		String choice = ""; 
 		while (!choice.equals("0")) { 
 			choice = menu(); 
 
@@ -76,8 +76,8 @@ public class Customer extends User {
 
 	public String getReport() { 
 		String report = "Customer: " + getUserName(); 
-		report = report + "\nChecking: " checking.getBalanceString(); 
-		report = report + "\nSavings: " savings.getBalanceString(); 
+		report = report + "\nChecking: " + checking.getBalanceString(); 
+		report = report + "\nSavings: " + savings.getBalanceString(); 
 
 		return report; 
 	} 
