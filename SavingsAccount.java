@@ -20,4 +20,5 @@ public class SavingsAccount extends CheckingAccount {
 	public double getInterestRate() { 
 		return interestRate; 
 	} 
-} 
+}
+

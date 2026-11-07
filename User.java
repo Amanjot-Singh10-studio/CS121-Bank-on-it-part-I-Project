@@ -39,4 +39,3 @@ public abstract class User implements HasMenu, Serializable {
 	} 
 	public abstract String getReport(); 
 }
-

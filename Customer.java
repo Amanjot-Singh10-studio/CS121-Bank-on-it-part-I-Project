@@ -82,24 +82,3 @@ public class Customer extends User {
 		return report; 
 	} 
 } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
